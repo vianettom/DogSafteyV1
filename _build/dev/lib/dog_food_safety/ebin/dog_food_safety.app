@@ -1,6 +1,7 @@
 {application,dog_food_safety,
              [{modules,['Elixir.DogFoodSafety.Application',
                         'Elixir.DogFoodSafety.FoodDatabase',
+                        'Elixir.DogFoodSafety.Release',
                         'Elixir.DogFoodSafety.Repo','Elixir.DogFoodSafetyWeb',
                         'Elixir.DogFoodSafetyWeb.CoreComponents',
                         'Elixir.DogFoodSafetyWeb.Endpoint',
