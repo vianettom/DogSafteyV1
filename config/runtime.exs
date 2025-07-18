@@ -38,9 +38,9 @@ if config_env() == :prod do
       port: String.to_integer(System.get_env("PORT") || "4000")
     ],
     # Explicitly allow LiveView/WebSocket connections from your domain
-    check_origin: [
-      "https://#{host}",
-      "//#{host}"
-    ],
+check_origin: [
+  "https://dogsafteyv1.onrender.com",
+  "//dogsafteyv1.onrender.com"
+],
     secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
 end
