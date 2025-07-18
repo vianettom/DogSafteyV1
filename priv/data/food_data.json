@@ -1,0 +1,1936 @@
+[
+  {
+    "id": 1,
+    "name": "chocolate",
+    "aliases": [
+      "cocoa",
+      "cacao",
+      "dark chocolate",
+      "milk chocolate",
+      "white chocolate"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Chocolate contains theobromine and caffeine, which are toxic to dogs. Dark chocolate is more dangerous than milk chocolate.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures",
+      "hyperactivity",
+      "increased heart rate",
+      "tremors"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "American Kennel Club (AKC)",
+      "Pet Poison Helpline",
+      "Veterinary Information Network (VIN)"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "grapes",
+    "aliases": [
+      "grape",
+      "raisins",
+      "raisin",
+      "sultanas"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Grapes and raisins can cause acute kidney failure in dogs. The toxic substance is unknown.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "loss of appetite",
+      "kidney failure",
+      "decreased urination"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Veterinary Information Network (VIN)",
+      "American Veterinary Medical Association (AVMA)",
+      "Journal of Veterinary Emergency and Critical Care"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "xylitol",
+    "aliases": [
+      "artificial sweetener",
+      "sugar substitute",
+      "birch sugar"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Xylitol causes rapid insulin release and severe hypoglycemia in dogs.",
+    "symptoms": [
+      "vomiting",
+      "loss of coordination",
+      "lethargy",
+      "collapse",
+      "seizures",
+      "liver failure"
+    ],
+    "action": "Seek immediate emergency veterinary care",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline",
+      "FDA Center for Veterinary Medicine",
+      "Veterinary Clinics of North America"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "macadamia nuts",
+    "aliases": [
+      "macadamia",
+      "queensland nut"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Macadamia nuts cause weakness, depression, vomiting, and hyperthermia in dogs.",
+    "symptoms": [
+      "weakness",
+      "depression",
+      "vomiting",
+      "hyperthermia",
+      "tremors",
+      "difficulty walking"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Australian Veterinary Journal",
+      "Pet Poison Helpline",
+      "Small Animal Toxicology"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "coffee",
+    "aliases": [
+      "caffeine",
+      "espresso",
+      "coffee beans",
+      "tea"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Caffeine is toxic to dogs and can cause serious neurological symptoms.",
+    "symptoms": [
+      "restlessness",
+      "rapid breathing",
+      "heart palpitations",
+      "muscle tremors",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline",
+      "Veterinary and Human Toxicology Journal",
+      "PetMD"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "alcohol",
+    "aliases": [
+      "beer",
+      "wine",
+      "liquor",
+      "ethanol"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Alcohol can cause severe intoxication, coma, and death in dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "difficulty breathing",
+      "tremors",
+      "coma"
+    ],
+    "action": "Seek immediate emergency veterinary care",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Merck Veterinary Manual",
+      "Journal of Veterinary Emergency Medicine",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "bread",
+    "aliases": [
+      "bread"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Bread is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "rice",
+    "aliases": [
+      "rice"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Rice is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "pasta",
+    "aliases": [
+      "pasta"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pasta is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "potato",
+    "aliases": [
+      "potato"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Potato is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "sweet potato",
+    "aliases": [
+      "sweet potato"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Sweet potato is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "pumpkin",
+    "aliases": [
+      "pumpkin"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pumpkin is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "carrot",
+    "aliases": [
+      "carrot"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Carrot is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "celery",
+    "aliases": [
+      "celery"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Celery is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "cucumber",
+    "aliases": [
+      "cucumber"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cucumber is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "lettuce",
+    "aliases": [
+      "lettuce"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lettuce is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "spinach",
+    "aliases": [
+      "spinach"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Spinach is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "broccoli",
+    "aliases": [
+      "broccoli"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Broccoli is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "cauliflower",
+    "aliases": [
+      "cauliflower"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cauliflower is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "bell pepper",
+    "aliases": [
+      "bell pepper"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Bell pepper is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "zucchini",
+    "aliases": [
+      "zucchini"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Zucchini is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "tomato",
+    "aliases": [
+      "tomato"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tomato is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "apple",
+    "aliases": [
+      "apple"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Apple is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "banana",
+    "aliases": [
+      "banana"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Banana is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "orange",
+    "aliases": [
+      "orange"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Orange is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "watermelon",
+    "aliases": [
+      "watermelon"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Watermelon is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "cantaloupe",
+    "aliases": [
+      "cantaloupe"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cantaloupe is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "strawberry",
+    "aliases": [
+      "strawberry"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Strawberry is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "blueberry",
+    "aliases": [
+      "blueberry"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Blueberry is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "raspberry",
+    "aliases": [
+      "raspberry"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Raspberry is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "blackberry",
+    "aliases": [
+      "blackberry"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Blackberry is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "pineapple",
+    "aliases": [
+      "pineapple"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pineapple is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "mango",
+    "aliases": [
+      "mango"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Mango is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "peach",
+    "aliases": [
+      "peach"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Peach is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "pear",
+    "aliases": [
+      "pear"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pear is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "cherry",
+    "aliases": [
+      "cherry"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Cherry can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "apricot",
+    "aliases": [
+      "apricot"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Apricot can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "plum",
+    "aliases": [
+      "plum"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Plum can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "lemon",
+    "aliases": [
+      "lemon"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lemon is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "lime",
+    "aliases": [
+      "lime"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lime is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "grapefruit",
+    "aliases": [
+      "grapefruit"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Grapefruit is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "coconut",
+    "aliases": [
+      "coconut"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Coconut is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "avocado",
+    "aliases": [
+      "avocado"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Avocado can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "onion",
+    "aliases": [
+      "onion"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Onion can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "garlic",
+    "aliases": [
+      "garlic"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Garlic can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "mushroom",
+    "aliases": [
+      "mushroom"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Mushroom can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "corn",
+    "aliases": [
+      "corn"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Corn is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "peas",
+    "aliases": [
+      "peas"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Peas is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "beans",
+    "aliases": [
+      "beans"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Beans is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "lentils",
+    "aliases": [
+      "lentils"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lentils is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "oatmeal",
+    "aliases": [
+      "oatmeal"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Oatmeal is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "yogurt",
+    "aliases": [
+      "yogurt"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Yogurt is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "milk",
+    "aliases": [
+      "milk"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Milk is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "cheese",
+    "aliases": [
+      "cheese"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cheese is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "butter",
+    "aliases": [
+      "butter"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Butter is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "cream",
+    "aliases": [
+      "cream"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cream is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "ice cream",
+    "aliases": [
+      "ice cream"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Ice cream is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "honey",
+    "aliases": [
+      "honey"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Honey is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "maple syrup",
+    "aliases": [
+      "maple syrup"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Maple syrup is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "jam",
+    "aliases": [
+      "jam"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Jam is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "jelly",
+    "aliases": [
+      "jelly"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Jelly is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "tea",
+    "aliases": [
+      "tea"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tea is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "soda",
+    "aliases": [
+      "soda"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Soda is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "bread dough",
+    "aliases": [
+      "bread dough"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Bread dough can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "yeast",
+    "aliases": [
+      "yeast"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Yeast can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "hops",
+    "aliases": [
+      "hops"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Hops can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "chicken",
+    "aliases": [
+      "chicken"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Chicken is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "turkey",
+    "aliases": [
+      "turkey"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Turkey is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "beef",
+    "aliases": [
+      "beef"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Beef is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "pork",
+    "aliases": [
+      "pork"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pork is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "fish",
+    "aliases": [
+      "fish"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Fish is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "salmon",
+    "aliases": [
+      "salmon"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Salmon is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "tuna",
+    "aliases": [
+      "tuna"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tuna is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "shrimp",
+    "aliases": [
+      "shrimp"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Shrimp is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "lobster",
+    "aliases": [
+      "lobster"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lobster is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "crab",
+    "aliases": [
+      "crab"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Crab is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "egg",
+    "aliases": [
+      "egg"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Egg is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "peanut butter",
+    "aliases": [
+      "peanut butter"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Peanut butter is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "seeds",
+    "aliases": [
+      "seeds"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Seeds is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "rice cakes",
+    "aliases": [
+      "rice cakes"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Rice cakes is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "crackers",
+    "aliases": [
+      "crackers"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Crackers is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "cookies",
+    "aliases": [
+      "cookies"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cookies is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "cake",
+    "aliases": [
+      "cake"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cake is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "rice pudding",
+    "aliases": [
+      "rice pudding"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Rice pudding is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "popcorn",
+    "aliases": [
+      "popcorn"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Popcorn is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "nuts",
+    "aliases": [
+      "nuts"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Nuts is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "almonds",
+    "aliases": [
+      "almonds"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Almonds can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "walnuts",
+    "aliases": [
+      "walnuts"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Walnuts can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "pistachios",
+    "aliases": [
+      "pistachios"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Pistachios can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "cashews",
+    "aliases": [
+      "cashews"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Cashews can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy"
+    ],
+    "action": "Contact veterinarian if ingested",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "sunflower seeds",
+    "aliases": [
+      "sunflower seeds"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Sunflower seeds is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "pumpkin seeds",
+    "aliases": [
+      "pumpkin seeds"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pumpkin seeds is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "basil",
+    "aliases": [
+      "basil"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Basil is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "mint",
+    "aliases": [
+      "mint"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Mint is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "parsley",
+    "aliases": [
+      "parsley"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Parsley is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "cilantro",
+    "aliases": [
+      "cilantro"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Cilantro is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "dill",
+    "aliases": [
+      "dill"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Dill is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "rosemary",
+    "aliases": [
+      "rosemary"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Rosemary is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "thyme",
+    "aliases": [
+      "thyme"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Thyme is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "oregano",
+    "aliases": [
+      "oregano"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Oregano is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "sage",
+    "aliases": [
+      "sage"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Sage is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "bay leaf",
+    "aliases": [
+      "bay leaf"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Bay leaf is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "lavender",
+    "aliases": [
+      "lavender"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Lavender is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "chamomile",
+    "aliases": [
+      "chamomile"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "plant",
+    "description": "Chamomile is safe for dogs in moderation.",
+    "symptoms": [],
+    "action": "Safe to give in moderation",
+    "citations": [
+      "American Kennel Club (AKC)",
+      "ASPCA Animal Poison Control Center"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "eucalyptus",
+    "aliases": [
+      "eucalyptus"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Eucalyptus can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "aloe vera",
+    "aliases": [
+      "aloe vera"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Aloe vera can be harmful to dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "seizures"
+    ],
+    "action": "Seek immediate veterinary attention",
+    "citations": [
+      "ASPCA Animal Poison Control Center",
+      "Pet Poison Helpline"
+    ]
+  }
+]
