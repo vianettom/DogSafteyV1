@@ -20,3 +20,27 @@ if config_env() == :prod do
     # standard prod settings
     secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
 end
+
+import Config
+
+if config_env() == :prod do
+  host = "dogsafteyv1.onrender.com"
+
+  config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
+    # Tell Phoenix how to build URLs (for links, signed tokens, etc.)
+    url: [
+      host: host,
+      port: 443,
+      scheme: "https"
+    ],
+    # Use the PORT Render gives you at runtime
+    http: [
+      port: String.to_integer(System.get_env("PORT") || "4000")
+    ],
+    # Explicitly allow LiveView/WebSocket connections from your domain
+    check_origin: [
+      "https://#{host}",
+      "//#{host}"
+    ],
+    secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
+end
