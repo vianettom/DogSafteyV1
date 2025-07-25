@@ -16,9 +16,12 @@
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "lethargy",
+      "tremors",
+      "seizures",
+      "heart problems"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/chocolate (accessed July 2025)"
     ]
@@ -39,9 +42,12 @@
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "lethargy",
+      "abdominal pain",
+      "dehydration",
+      "lack of appetite"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/grapes (accessed July 2025)"
     ]
@@ -52,18 +58,24 @@
     "aliases": [
       "artificial sweetener",
       "sugar substitute",
-      "birch sugar"
+      "birch sugar",
+      "chewing gum",
+      "sugar-free candy",
+      "peanut butter"
     ],
     "safe": false,
     "severity": "high",
     "category": "food",
-    "description": "Xylitol causes rapid insulin release and severe hypoglycemia in dogs.",
+    "description": "Xylitol causes rapid insulin release and severe hypoglycemia (low blood sugar) in dogs, leading to liver failure in high doses.",
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "lethargy",
+      "weakness",
+      "collapse",
+      "seizures"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/xylitol (accessed July 2025)"
     ]
@@ -76,15 +88,18 @@
       "queensland nut"
     ],
     "safe": false,
-    "severity": "high",
+    "severity": "medium",
     "category": "food",
-    "description": "Macadamia nuts cause weakness, depression, vomiting, and hyperthermia in dogs.",
+    "description": "Macadamia nuts cause weakness, depression, vomiting, tremors, and hyperthermia (elevated body temperature) in dogs.",
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "lethargy",
+      "weakness",
+      "tremors",
+      "fever"
     ],
-    "action": "",
+    "action": "Contact vet.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/macadamia-nuts (accessed July 2025)"
     ]
@@ -96,18 +111,22 @@
       "caffeine",
       "espresso",
       "coffee beans",
-      "tea"
+      "tea",
+      "energy drinks"
     ],
     "safe": false,
     "severity": "high",
     "category": "food",
-    "description": "Caffeine is toxic to dogs and can cause serious neurological symptoms.",
+    "description": "Caffeine is toxic to dogs and can cause serious neurological symptoms and heart problems.",
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "hyperactivity",
+      "tremors",
+      "seizures",
+      "elevated heart rate"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/coffee (accessed July 2025)"
     ]
@@ -119,18 +138,22 @@
       "beer",
       "wine",
       "liquor",
-      "ethanol"
+      "ethanol",
+      "fermented dough"
     ],
     "safe": false,
     "severity": "high",
     "category": "food",
-    "description": "Alcohol can cause severe intoxication, coma, and death in dogs.",
+    "description": "Alcohol can cause severe intoxication, respiratory depression, coma, and death in dogs.",
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "disorientation",
+      "difficulty breathing",
+      "tremors",
+      "coma"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/alcohol (accessed July 2025)"
     ]
@@ -139,1486 +162,2272 @@
     "id": 7,
     "name": "bread",
     "aliases": [
-      "bread"
+      "white bread",
+      "whole wheat bread"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Bread is safe for dogs in moderation.",
+    "description": "Plain, cooked bread is safe for dogs in moderation. Avoid raw dough as it can expand and produce alcohol.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in small amounts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 8,
     "name": "rice",
     "aliases": [
-      "rice"
+      "white rice",
+      "brown rice"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Rice is safe for dogs in moderation.",
+    "description": "Plain, cooked rice (white or brown) is easily digestible and often recommended for upset stomachs.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in small amounts, plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 9,
     "name": "pasta",
     "aliases": [
-      "pasta"
+      "cooked pasta",
+      "plain pasta"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Pasta is safe for dogs in moderation.",
+    "description": "Plain, cooked pasta is safe for dogs in moderation. Avoid sauces or seasonings.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in small amounts, plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 10,
     "name": "potato",
     "aliases": [
-      "potato"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Potato is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 11,
-    "name": "sweet potato",
-    "aliases": [
+      "cooked potato",
       "sweet potato"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Sweet potato is safe for dogs in moderation.",
+    "description": "Plain, cooked potatoes (without skin or green parts) are safe. Sweet potatoes are a good source of fiber.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in small amounts, cooked and plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "onions",
+    "aliases": [
+      "garlic",
+      "chives",
+      "leeks",
+      "scallions"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "All parts of onions and related plants are toxic to dogs, causing red blood cell damage (anemia).",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "weakness",
+      "pale gums",
+      "elevated heart rate"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/onions-garlic (accessed July 2025)"
+    ]
   },
   {
     "id": 12,
-    "name": "pumpkin",
-    "aliases": [
-      "pumpkin"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Pumpkin is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 13,
-    "name": "carrot",
-    "aliases": [
-      "carrot"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Carrot is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 14,
-    "name": "celery",
-    "aliases": [
-      "celery"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Celery is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 15,
-    "name": "cucumber",
-    "aliases": [
-      "cucumber"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cucumber is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 16,
-    "name": "lettuce",
-    "aliases": [
-      "lettuce"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Lettuce is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 17,
-    "name": "spinach",
-    "aliases": [
-      "spinach"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Spinach is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 18,
-    "name": "broccoli",
-    "aliases": [
-      "broccoli"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Broccoli is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 19,
-    "name": "cauliflower",
-    "aliases": [
-      "cauliflower"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cauliflower is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 20,
-    "name": "bell pepper",
-    "aliases": [
-      "bell pepper"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Bell pepper is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 21,
-    "name": "zucchini",
-    "aliases": [
-      "zucchini"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Zucchini is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 22,
-    "name": "tomato",
-    "aliases": [
-      "tomato"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Tomato is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 23,
-    "name": "apple",
-    "aliases": [
-      "apple"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Apple is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 24,
-    "name": "banana",
-    "aliases": [
-      "banana"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Banana is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 25,
-    "name": "orange",
-    "aliases": [
-      "orange"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Orange is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 26,
-    "name": "watermelon",
-    "aliases": [
-      "watermelon"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Watermelon is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 27,
-    "name": "cantaloupe",
-    "aliases": [
-      "cantaloupe"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cantaloupe is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 28,
-    "name": "strawberry",
-    "aliases": [
-      "strawberry"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Strawberry is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 29,
-    "name": "blueberry",
-    "aliases": [
-      "blueberry"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Blueberry is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 30,
-    "name": "raspberry",
-    "aliases": [
-      "raspberry"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Raspberry is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 31,
-    "name": "blackberry",
-    "aliases": [
-      "blackberry"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Blackberry is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 32,
-    "name": "pineapple",
-    "aliases": [
-      "pineapple"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Pineapple is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 33,
-    "name": "mango",
-    "aliases": [
-      "mango"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Mango is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 34,
-    "name": "peach",
-    "aliases": [
-      "peach"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Peach is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 35,
-    "name": "pear",
-    "aliases": [
-      "pear"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Pear is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 36,
-    "name": "cherry",
-    "aliases": [
-      "cherry"
-    ],
-    "safe": false,
-    "severity": "medium",
-    "category": "food",
-    "description": "Cherry can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea"
-    ],
-    "action": "",
-    "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/cherry (accessed July 2025)"
-    ]
-  },
-  {
-    "id": 37,
-    "name": "apricot",
-    "aliases": [
-      "apricot"
-    ],
-    "safe": false,
-    "severity": "medium",
-    "category": "food",
-    "description": "Apricot can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea"
-    ],
-    "action": "",
-    "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/apricot (accessed July 2025)"
-    ]
-  },
-  {
-    "id": 38,
-    "name": "plum",
-    "aliases": [
-      "plum"
-    ],
-    "safe": false,
-    "severity": "medium",
-    "category": "food",
-    "description": "Plum can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea"
-    ],
-    "action": "",
-    "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/plum (accessed July 2025)"
-    ]
-  },
-  {
-    "id": 39,
-    "name": "lemon",
-    "aliases": [
-      "lemon"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Lemon is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 40,
-    "name": "lime",
-    "aliases": [
-      "lime"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Lime is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 41,
-    "name": "grapefruit",
-    "aliases": [
-      "grapefruit"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Grapefruit is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 42,
-    "name": "coconut",
-    "aliases": [
-      "coconut"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Coconut is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 43,
     "name": "avocado",
     "aliases": [
-      "avocado"
+      "avocado fruit",
+      "avocado pit",
+      "avocado leaves"
     ],
     "safe": false,
     "severity": "medium",
     "category": "food",
-    "description": "Avocado can be harmful to dogs.",
+    "description": "Avocado contains 'persin,' which can cause vomiting and diarrhea in dogs. The pit is a choking hazard.",
     "symptoms": [
       "vomiting",
-      "diarrhea"
+      "diarrhea",
+      "abdominal discomfort"
     ],
-    "action": "",
+    "action": "Monitor for symptoms; contact vet if severe.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/avocado (accessed July 2025)"
     ]
   },
   {
-    "id": 44,
-    "name": "onion",
+    "id": 13,
+    "name": "cherries",
     "aliases": [
-      "onion"
+      "cherry pits",
+      "cherry stems",
+      "cherry leaves"
     ],
     "safe": false,
     "severity": "medium",
     "category": "food",
-    "description": "Onion can be harmful to dogs.",
+    "description": "Cherry pits, stems, and leaves contain cyanide, which is toxic. The fruit flesh is generally safe in small amounts, but pits are a choking hazard.",
     "symptoms": [
-      "vomiting",
-      "diarrhea"
+      "difficulty breathing",
+      "red gums",
+      "dilated pupils",
+      "shock"
     ],
-    "action": "",
+    "action": "Contact vet if pits or large amounts ingested.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/onion (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 45,
-    "name": "garlic",
+    "id": 14,
+    "name": "apple seeds",
     "aliases": [
-      "garlic"
+      "apple core",
+      "apple pips"
     ],
     "safe": false,
-    "severity": "medium",
+    "severity": "low",
     "category": "food",
-    "description": "Garlic can be harmful to dogs.",
+    "description": "Apple seeds contain amygdalin, which releases cyanide when digested. Small amounts are unlikely to cause harm, but large quantities can be dangerous.",
     "symptoms": [
-      "vomiting",
-      "diarrhea"
+      "difficulty breathing",
+      "red gums",
+      "dilated pupils"
     ],
-    "action": "",
+    "action": "Remove seeds before feeding apple flesh.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/garlic (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 46,
-    "name": "mushroom",
+    "id": 15,
+    "name": "raw yeast dough",
     "aliases": [
-      "mushroom"
-    ],
-    "safe": false,
-    "severity": "high",
-    "category": "food",
-    "description": "Mushroom can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea",
-      "lethargy"
-    ],
-    "action": "",
-    "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/mushroom (accessed July 2025)"
-    ]
-  },
-  {
-    "id": 47,
-    "name": "corn",
-    "aliases": [
-      "corn"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Corn is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 48,
-    "name": "peas",
-    "aliases": [
-      "peas"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Peas is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 49,
-    "name": "beans",
-    "aliases": [
-      "beans"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Beans is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 50,
-    "name": "lentils",
-    "aliases": [
-      "lentils"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Lentils is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 51,
-    "name": "oatmeal",
-    "aliases": [
-      "oatmeal"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Oatmeal is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 52,
-    "name": "yogurt",
-    "aliases": [
-      "yogurt"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Yogurt is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 53,
-    "name": "milk",
-    "aliases": [
-      "milk"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Milk is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 54,
-    "name": "cheese",
-    "aliases": [
-      "cheese"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cheese is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 55,
-    "name": "butter",
-    "aliases": [
-      "butter"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Butter is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 56,
-    "name": "cream",
-    "aliases": [
-      "cream"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cream is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 57,
-    "name": "ice cream",
-    "aliases": [
-      "ice cream"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Ice cream is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 58,
-    "name": "honey",
-    "aliases": [
-      "honey"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Honey is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 59,
-    "name": "maple syrup",
-    "aliases": [
-      "maple syrup"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Maple syrup is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 60,
-    "name": "jam",
-    "aliases": [
-      "jam"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Jam is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 61,
-    "name": "jelly",
-    "aliases": [
-      "jelly"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Jelly is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 62,
-    "name": "tea",
-    "aliases": [
-      "tea"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Tea is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 63,
-    "name": "soda",
-    "aliases": [
-      "soda"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Soda is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 64,
-    "name": "bread dough",
-    "aliases": [
-      "bread dough"
+      "uncooked bread dough",
+      "pizza dough"
     ],
     "safe": false,
     "severity": "high",
     "category": "food",
-    "description": "Bread dough can be harmful to dogs.",
+    "description": "Raw yeast dough can expand in the stomach, causing bloating and potentially a life-threatening gastric dilatation-volvulus (GDV). Yeast also produces alcohol.",
     "symptoms": [
+      "bloating",
       "vomiting",
-      "diarrhea",
-      "lethargy"
+      "abdominal pain",
+      "weakness",
+      "collapse"
     ],
-    "action": "",
+    "action": "Contact vet immediately.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/bread-dough (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 65,
-    "name": "yeast",
+    "id": 16,
+    "name": "carrots",
     "aliases": [
-      "yeast"
+      "baby carrots",
+      "carrot sticks"
     ],
-    "safe": false,
-    "severity": "high",
+    "safe": true,
+    "severity": "low",
     "category": "food",
-    "description": "Yeast can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea",
-      "lethargy"
-    ],
-    "action": "",
+    "description": "Carrots are a healthy, low-calorie snack. They can also help clean teeth.",
+    "symptoms": [],
+    "action": "Offer in moderation, cut into appropriate sizes.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/yeast (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 66,
-    "name": "hops",
+    "id": 17,
+    "name": "apples",
     "aliases": [
-      "hops"
+      "apple slices",
+      "red apple",
+      "green apple"
     ],
-    "safe": false,
-    "severity": "high",
+    "safe": true,
+    "severity": "low",
     "category": "food",
-    "description": "Hops can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea",
-      "lethargy"
-    ],
-    "action": "",
+    "description": "Apple flesh (without seeds or core) is a good source of vitamins and fiber. Always remove seeds and core.",
+    "symptoms": [],
+    "action": "Offer in moderation, remove seeds and core.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/hops (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 67,
-    "name": "chicken",
+    "id": 18,
+    "name": "bananas",
     "aliases": [
-      "chicken"
+      "banana slices"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Chicken is safe for dogs in moderation.",
+    "description": "Bananas are a good source of potassium and vitamins. Offer in moderation due to sugar content.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, peeled.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
-    "id": 68,
-    "name": "turkey",
+    "id": 19,
+    "name": "blueberries",
     "aliases": [
-      "turkey"
+      "fresh blueberries"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Turkey is safe for dogs in moderation.",
+    "description": "Blueberries are packed with antioxidants and are a great low-calorie treat.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
-    "id": 69,
-    "name": "beef",
+    "id": 20,
+    "name": "green beans",
     "aliases": [
-      "beef"
+      "string beans",
+      "cooked green beans"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Beef is safe for dogs in moderation.",
+    "description": "Plain green beans (fresh or frozen, cooked) are a healthy, low-calorie snack, good for weight management.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
-    "id": 70,
-    "name": "pork",
+    "id": 21,
+    "name": "cooked chicken",
     "aliases": [
-      "pork"
+      "plain chicken",
+      "boiled chicken"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Pork is safe for dogs in moderation.",
+    "description": "Plain, boneless, skinless, cooked chicken is an excellent source of protein and often used for upset stomachs.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
-    "id": 71,
-    "name": "fish",
+    "id": 22,
+    "name": "cooked salmon",
     "aliases": [
-      "fish"
+      "plain salmon",
+      "baked salmon"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Fish is safe for dogs in moderation.",
+    "description": "Plain, cooked salmon (without bones or skin) is rich in Omega-3 fatty acids, beneficial for skin and coat.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
-    "id": 72,
-    "name": "salmon",
-    "aliases": [
-      "salmon"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Salmon is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 73,
-    "name": "tuna",
-    "aliases": [
-      "tuna"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Tuna is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 74,
-    "name": "shrimp",
-    "aliases": [
-      "shrimp"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Shrimp is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 75,
-    "name": "lobster",
-    "aliases": [
-      "lobster"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Lobster is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 76,
-    "name": "crab",
-    "aliases": [
-      "crab"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Crab is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 77,
-    "name": "egg",
-    "aliases": [
-      "egg"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Egg is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 78,
+    "id": 23,
     "name": "peanut butter",
     "aliases": [
-      "peanut butter"
+      "nut butter"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Peanut butter is safe for dogs in moderation.",
+    "description": "Xylitol-free peanut butter is a popular treat. Check labels carefully for xylitol.",
     "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 79,
-    "name": "seeds",
-    "aliases": [
-      "seeds"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Seeds is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 80,
-    "name": "rice cakes",
-    "aliases": [
-      "rice cakes"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Rice cakes is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 81,
-    "name": "crackers",
-    "aliases": [
-      "crackers"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Crackers is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 82,
-    "name": "cookies",
-    "aliases": [
-      "cookies"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cookies is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 83,
-    "name": "cake",
-    "aliases": [
-      "cake"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Cake is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 84,
-    "name": "rice pudding",
-    "aliases": [
-      "rice pudding"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Rice pudding is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 85,
-    "name": "popcorn",
-    "aliases": [
-      "popcorn"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Popcorn is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 86,
-    "name": "nuts",
-    "aliases": [
-      "nuts"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "food",
-    "description": "Nuts is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 87,
-    "name": "almonds",
-    "aliases": [
-      "almonds"
-    ],
-    "safe": false,
-    "severity": "medium",
-    "category": "food",
-    "description": "Almonds can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea"
-    ],
-    "action": "",
+    "action": "Offer in moderation, check for xylitol.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/almonds (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
-    "id": 88,
-    "name": "walnuts",
+    "id": 24,
+    "name": "pumpkin",
     "aliases": [
-      "walnuts"
+      "canned pumpkin",
+      "pumpkin puree"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked pumpkin (not pie filling) is excellent for digestive health due to its fiber content.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "sweet potato",
+    "aliases": [
+      "cooked sweet potato"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked sweet potato is a good source of dietary fiber, vitamins, and minerals.",
+    "symptoms": [],
+    "action": "Offer in moderation, cooked and plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "eggs",
+    "aliases": [
+      "cooked eggs",
+      "scrambled eggs",
+      "boiled eggs"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked eggs are a great source of protein. Avoid raw eggs due to salmonella risk.",
+    "symptoms": [],
+    "action": "Offer in moderation, cooked and plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "plain yogurt",
+    "aliases": [
+      "greek yogurt",
+      "probiotic yogurt"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, unsweetened yogurt (without xylitol) can be a good source of probiotics for digestive health.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and unsweetened.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "cheese",
+    "aliases": [
+      "cheddar cheese",
+      "mozzarella"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of plain, low-fat cheese can be a treat. Too much can cause digestive upset due to lactose.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "watermelon",
+    "aliases": [
+      "seedless watermelon"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Seedless watermelon (flesh only) is a hydrating, low-calorie treat. Remove all seeds and rind.",
+    "symptoms": [],
+    "action": "Offer in moderation, seedless and rind-free.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "cucumber",
+    "aliases": [
+      "cucumber slices"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cucumbers are a healthy, low-calorie, hydrating snack.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "broccoli",
+    "aliases": [
+      "cooked broccoli",
+      "broccoli florets"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of cooked broccoli are safe and contain vitamins. Large amounts can cause digestive upset.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "spinach",
+    "aliases": [
+      "cooked spinach"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of cooked spinach are safe. High oxalate content means large amounts can interfere with calcium absorption.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "almonds",
+    "aliases": [
+      "almond nuts"
     ],
     "safe": false,
     "severity": "medium",
     "category": "food",
-    "description": "Walnuts can be harmful to dogs.",
+    "description": "Almonds are not toxic but can cause stomach upset and are a choking hazard. High fat content can lead to pancreatitis.",
     "symptoms": [
       "vomiting",
-      "diarrhea"
+      "diarrhea",
+      "abdominal pain"
     ],
-    "action": "",
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "walnuts",
+    "aliases": [
+      "black walnuts",
+      "english walnuts"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Black walnuts are toxic, causing tremors and seizures. Other walnuts can cause digestive upset and pancreatitis due to high fat.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "tremors",
+      "seizures"
+    ],
+    "action": "Contact vet if ingested, especially black walnuts.",
     "citations": [
       "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/walnuts (accessed July 2025)"
     ]
   },
   {
-    "id": 89,
-    "name": "pistachios",
+    "id": 35,
+    "name": "pecans",
     "aliases": [
-      "pistachios"
+      "pecan nuts"
     ],
     "safe": false,
     "severity": "medium",
     "category": "food",
-    "description": "Pistachios can be harmful to dogs.",
+    "description": "Pecans can cause stomach upset and pancreatitis due to high fat content. Moldy pecans may contain tremorgenic mycotoxins.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "tremors"
+    ],
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "wild mushrooms",
+    "aliases": [
+      "foraged mushrooms"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Many wild mushrooms are highly toxic and can cause severe illness, organ failure, or death. Identification is difficult.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "jaundice",
+      "seizures",
+      "coma"
+    ],
+    "action": "Contact vet immediately. Bring a sample of the mushroom if possible.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/mushrooms (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "rhubarb",
+    "aliases": [
+      "rhubarb leaves",
+      "rhubarb stalks"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Rhubarb leaves contain oxalates, which can cause kidney problems. Stalks are less toxic but still not recommended.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "tremors",
+      "salivation",
+      "kidney failure"
+    ],
+    "action": "Contact vet if leaves ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/rhubarb (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "tomato plants",
+    "aliases": [
+      "green tomatoes",
+      "tomato leaves",
+      "tomato stems"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "The green parts of tomato plants (leaves, stems, unripe fruit) contain solanine, which is toxic. Ripe red tomatoes are generally safe.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "weakness",
+      "confusion"
+    ],
+    "action": "Contact vet if plant material ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/tomatoes (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "lilies",
+    "aliases": [
+      "easter lily",
+      "tiger lily",
+      "asiatic lily",
+      "daylily"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "True lilies (Lilium and Hemerocallis species) are highly toxic and can cause acute kidney failure in dogs.",
+    "symptoms": [
+      "vomiting",
+      "lethargy",
+      "lack of appetite",
+      "dehydration",
+      "kidney failure"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/lilies (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "sago palm",
+    "aliases": [
+      "cycad",
+      "coontie palm",
+      "cardboard palm"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "All parts of the sago palm are highly toxic, especially the seeds, causing severe liver damage.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "jaundice",
+      "liver failure",
+      "seizures"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/sago-palm (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "azalea",
+    "aliases": [
+      "rhododendron"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Azaleas and rhododendrons contain grayanotoxins, which can cause vomiting, diarrhea, cardiovascular issues, and central nervous system effects.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "weakness",
+      "tremors",
+      "seizures",
+      "coma"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/azaleas-rhododendrons (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "oleander",
+    "aliases": [
+      "nerium oleander"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Oleander contains cardiac glycosides that are highly toxic to the heart, causing severe heart abnormalities and death.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "abnormal heart rate",
+      "collapse",
+      "death"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/oleander (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "daffodil",
+    "aliases": [
+      "narcissus",
+      "daffodil bulbs"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Daffodil bulbs are most toxic, containing lycorine, which causes vomiting and diarrhea. The flowers and stems are less toxic.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "salivation"
+    ],
+    "action": "Contact vet if bulbs ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/daffodils (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "tulip",
+    "aliases": [
+      "tulip bulbs"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Tulip bulbs contain allergenic lactones that can cause severe gastrointestinal upset.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "salivation",
+      "lethargy"
+    ],
+    "action": "Contact vet if bulbs ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/tulips (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "poinsettia",
+    "aliases": [
+      "christmas flower"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "plant",
+    "description": "Poinsettias are generally overrated in toxicity; they can cause mild irritation of the mouth and stomach upset.",
+    "symptoms": [
+      "vomiting",
+      "salivation",
+      "diarrhea"
+    ],
+    "action": "Monitor, contact vet if symptoms persist.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/poinsettia (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "aloe vera",
+    "aliases": [
+      "aloe plant"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "The latex part of the aloe vera plant contains saponins and anthraquinones, which can cause digestive upset.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "anorexia"
+    ],
+    "action": "Contact vet if ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/aloe-vera (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "ivy",
+    "aliases": [
+      "english ivy",
+      "boston ivy"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Ivy plants contain triterpenoid saponins, which can cause gastrointestinal upset and dermatitis.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "skin irritation"
+    ],
+    "action": "Contact vet if ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/ivy (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "marijuana",
+    "aliases": [
+      "cannabis",
+      "weed",
+      "edibles"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "THC in marijuana is toxic to dogs, causing central nervous system depression, ataxia, and sometimes seizures or coma.",
+    "symptoms": [
+      "lethargy",
+      "ataxia (wobbly gait)",
+      "dilated pupils",
+      "urinary incontinence",
+      "vomiting",
+      "tremors"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "NSAIDs",
+    "aliases": [
+      "ibuprofen",
+      "naproxen",
+      "aspirin (human)"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "medication",
+    "description": "Human NSAIDs can cause severe stomach ulcers, kidney failure, and liver damage in dogs.",
+    "symptoms": [
+      "vomiting (with or without blood)",
+      "diarrhea",
+      "lethargy",
+      "abdominal pain",
+      "increased thirst/urination"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/human-medications (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "acetaminophen",
+    "aliases": [
+      "tylenol",
+      "paracetamol"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "medication",
+    "description": "Acetaminophen is highly toxic to dogs, causing liver damage and red blood cell damage (methemoglobinemia).",
+    "symptoms": [
+      "lethargy",
+      "difficulty breathing",
+      "swelling of face/paws",
+      "dark gums",
+      "vomiting"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/human-medications (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "antidepressants",
+    "aliases": [
+      "SSRIs",
+      "tricyclic antidepressants"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "medication",
+    "description": "Human antidepressants can cause neurological symptoms like sedation, agitation, tremors, and seizures in dogs.",
+    "symptoms": [
+      "vomiting",
+      "tremors",
+      "seizures",
+      "disorientation",
+      "agitation",
+      "sedation"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/human-medications (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "cold medicines",
+    "aliases": [
+      "decongestants",
+      "cough syrup",
+      "multi-symptom cold meds"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "medication",
+    "description": "Many cold medicines contain ingredients like pseudoephedrine or phenylephrine (stimulants) or acetaminophen, all highly toxic to dogs.",
+    "symptoms": [
+      "hyperactivity",
+      "tremors",
+      "seizures",
+      "elevated heart rate",
+      "vomiting"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/human-medications (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "iron supplements",
+    "aliases": [
+      "human vitamins with iron",
+      "prenatal vitamins"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "medication",
+    "description": "Iron overdose can cause severe gastrointestinal upset, liver damage, and heart problems.",
+    "symptoms": [
+      "vomiting (with blood)",
+      "diarrhea",
+      "lethargy",
+      "abdominal pain",
+      "shock"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/human-medications (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "cleaning products",
+    "aliases": [
+      "bleach",
+      "detergents",
+      "toilet bowl cleaner",
+      "drain cleaner"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "household",
+    "description": "Corrosive or irritating chemicals can cause severe burns to the mouth, esophagus, and stomach, or systemic toxicity.",
+    "symptoms": [
+      "vomiting",
+      "salivation",
+      "difficulty swallowing",
+      "mouth irritation",
+      "abdominal pain"
+    ],
+    "action": "Contact vet immediately. Do NOT induce vomiting.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/cleaning-products (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "antifreeze",
+    "aliases": [
+      "ethylene glycol",
+      "coolant"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "household",
+    "description": "Ethylene glycol is highly toxic, causing acute kidney failure. Even a small amount can be fatal.",
+    "symptoms": [
+      "vomiting",
+      "ataxia (wobbly gait)",
+      "increased thirst/urination",
+      "lethargy",
+      "seizures",
+      "coma"
+    ],
+    "action": "Contact vet immediately. Time is critical.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/antifreeze (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "rodenticides",
+    "aliases": [
+      "rat poison",
+      "mouse poison"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "household",
+    "description": "Rodenticides come in various types (anticoagulants, bromethalin, cholecalciferol) each causing severe, often delayed, and fatal effects.",
+    "symptoms": [
+      "bleeding (internal/external)",
+      "weakness",
+      "tremors",
+      "seizures",
+      "kidney failure"
+    ],
+    "action": "Contact vet immediately. Bring packaging if possible.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/rodenticides (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "insecticides",
+    "aliases": [
+      "bug spray",
+      "ant killer",
+      "flea products (dog-specific)"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "household",
+    "description": "Insecticides can cause a range of symptoms from mild digestive upset to severe neurological effects depending on the chemical.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "tremors",
+      "seizures",
+      "salivation",
+      "difficulty breathing"
+    ],
+    "action": "Contact vet immediately. Bring packaging if possible.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/insecticides (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "batteries",
+    "aliases": [
+      "alkaline batteries",
+      "button batteries"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "household",
+    "description": "Batteries can cause corrosive burns to the mouth, esophagus, and stomach due to their alkaline contents. Lithium button batteries are especially dangerous.",
+    "symptoms": [
+      "salivation",
+      "vomiting",
+      "difficulty swallowing",
+      "mouth irritation",
+      "abdominal pain"
+    ],
+    "action": "Contact vet immediately. Do NOT induce vomiting.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "essential oils",
+    "aliases": [
+      "tea tree oil",
+      "peppermint oil",
+      "citrus oils"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "household",
+    "description": "Many essential oils are toxic when ingested or applied to skin, causing liver damage, neurological issues, or skin irritation.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "ataxia",
+      "tremors",
+      "skin irritation"
+    ],
+    "action": "Contact vet.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/essential-oils (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "dryer sheets",
+    "aliases": [
+      "fabric softener sheets"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "household",
+    "description": "Dryer sheets contain cationic detergents that can cause mouth ulcers, vomiting, and internal irritation.",
+    "symptoms": [
+      "salivation",
+      "vomiting",
+      "mouth irritation",
+      "lethargy"
+    ],
+    "action": "Contact vet if ingested.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "cooked bones",
+    "aliases": [
+      "chicken bones",
+      "pork bones",
+      "beef bones"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Cooked bones become brittle and can splinter, causing choking, internal punctures, or blockages.",
+    "symptoms": [
+      "choking",
+      "vomiting",
+      "constipation",
+      "abdominal pain",
+      "difficulty defecating"
+    ],
+    "action": "Contact vet immediately if ingested.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "raw meat",
+    "aliases": [
+      "uncooked chicken",
+      "raw beef"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Raw meat can contain harmful bacteria (Salmonella, E. coli) and parasites, posing risks to both dogs and humans.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "fever",
+      "lethargy"
+    ],
+    "action": "Avoid feeding raw meat.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "raw fish",
+    "aliases": [
+      "uncooked fish"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Raw fish can contain thiaminase (an enzyme that destroys thiamine/Vitamin B1) and parasites, especially salmon from the Pacific Northwest.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "weight loss",
+      "seizures (from thiamine deficiency)"
+    ],
+    "action": "Avoid feeding raw fish.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "fatty foods",
+    "aliases": [
+      "bacon grease",
+      "meat trimmings",
+      "fried foods"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "High-fat foods can cause pancreatitis (inflammation of the pancreas), which is a serious and painful condition.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "severe abdominal pain",
+      "lethargy",
+      "fever"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "salt",
+    "aliases": [
+      "table salt",
+      "salty snacks",
+      "play-doh"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Excessive salt intake can lead to sodium ion poisoning, causing neurological symptoms and dehydration.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "tremors",
+      "seizures",
+      "excessive thirst",
+      "frequent urination"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/salt (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "corn on the cob",
+    "aliases": [
+      "corn cob"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "While corn kernels are safe, the cob itself is indigestible and can cause a severe intestinal blockage.",
+    "symptoms": [
+      "vomiting",
+      "abdominal pain",
+      "lack of appetite",
+      "straining to defecate",
+      "lethargy"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "nutmeg",
+    "aliases": [
+      "ground nutmeg"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Nutmeg contains myristicin, which can cause hallucinations, disorientation, and central nervous system effects in large doses.",
+    "symptoms": [
+      "vomiting",
+      "abdominal pain",
+      "disorientation",
+      "increased heart rate",
+      "seizures"
+    ],
+    "action": "Contact vet if large amount ingested.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "yeast",
+    "aliases": [
+      "active dry yeast",
+      "baker's yeast"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Raw yeast can ferment in the stomach, producing alcohol and causing bloating (similar to raw dough).",
+    "symptoms": [
+      "bloating",
+      "vomiting",
+      "abdominal pain",
+      "disorientation",
+      "weakness"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "raw eggs",
+    "aliases": [
+      "uncooked eggs"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "Raw eggs can contain Salmonella bacteria, and raw egg whites contain avidin, which can interfere with biotin absorption over time.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "skin issues (from biotin deficiency)"
+    ],
+    "action": "Avoid feeding raw eggs.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "milk",
+    "aliases": [
+      "cow's milk",
+      "dairy milk"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "Many dogs are lactose intolerant and milk can cause digestive upset. Small amounts are generally not harmful.",
+    "symptoms": [
+      "diarrhea",
+      "vomiting",
+      "gas"
+    ],
+    "action": "Offer in very small amounts, or avoid if sensitive.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "ice cream",
+    "aliases": [
+      "frozen dessert"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Ice cream contains dairy (lactose), sugar, and sometimes xylitol or chocolate, all potentially harmful.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "gas"
+    ],
+    "action": "Avoid or offer dog-specific frozen treats.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "citrus fruits",
+    "aliases": [
+      "lemons",
+      "limes",
+      "oranges",
+      "grapefruits"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "Citrus stems, leaves, peels, and seeds contain citric acid and essential oils which can cause digestive upset. The fruit flesh is generally safe in small amounts.",
     "symptoms": [
       "vomiting",
       "diarrhea"
     ],
-    "action": "",
+    "action": "Avoid peels, stems, leaves; small amounts of flesh are usually fine.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/pistachios (accessed July 2025)"
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/citrus (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "peaches",
+    "aliases": [
+      "peach pits"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Peach pits contain cyanide and are a choking hazard. The flesh is safe in moderation.",
+    "symptoms": [
+      "choking",
+      "difficulty breathing",
+      "red gums"
+    ],
+    "action": "Remove pit before feeding flesh.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "plums",
+    "aliases": [
+      "plum pits"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Plum pits contain cyanide and are a choking hazard. The flesh is safe in moderation.",
+    "symptoms": [
+      "choking",
+      "difficulty breathing",
+      "red gums"
+    ],
+    "action": "Remove pit before feeding flesh.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "apricots",
+    "aliases": [
+      "apricot pits"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Apricot pits contain cyanide and are a choking hazard. The flesh is safe in moderation.",
+    "symptoms": [
+      "choking",
+      "difficulty breathing",
+      "red gums"
+    ],
+    "action": "Remove pit before feeding flesh.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "cooked corn",
+    "aliases": [
+      "corn kernels",
+      "sweet corn"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked corn kernels are safe and digestible. Avoid corn on the cob.",
+    "symptoms": [],
+    "action": "Offer in moderation, off the cob.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "strawberries",
+    "aliases": [
+      "fresh strawberries"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Strawberries are safe and contain antioxidants. Offer in moderation due to sugar content.",
+    "symptoms": [],
+    "action": "Offer in moderation, washed.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "raspberries",
+    "aliases": [
+      "fresh raspberries"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Raspberries are safe and contain antioxidants. Offer in moderation due to naturally occurring xylitol in very small amounts.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "blackberries",
+    "aliases": [
+      "fresh blackberries"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Blackberries are safe and contain antioxidants and fiber. Offer in moderation.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "pears",
+    "aliases": [
+      "pear slices"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Pear flesh (without seeds or core) is safe and a good source of fiber. Remove seeds and core.",
+    "symptoms": [],
+    "action": "Offer in moderation, remove seeds and core.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "lettuce",
+    "aliases": [
+      "romaine lettuce",
+      "iceberg lettuce"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Lettuce is safe and hydrating, but offers little nutritional value. Can cause mild digestive upset in large amounts.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "celery",
+    "aliases": [
+      "celery sticks"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Celery is a safe, low-calorie snack. Cut into small pieces to prevent choking.",
+    "symptoms": [],
+    "action": "Offer in moderation, cut small.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "bell peppers",
+    "aliases": [
+      "red bell pepper",
+      "green bell pepper",
+      "yellow bell pepper"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Bell peppers are safe and a good source of vitamins. Avoid spicy peppers.",
+    "symptoms": [],
+    "action": "Offer in moderation, avoid seeds and stem.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "cabbage",
+    "aliases": [
+      "cooked cabbage"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of cooked cabbage are safe. Large amounts can cause gas.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "brussels sprouts",
+    "aliases": [
+      "cooked brussels sprouts"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of cooked brussels sprouts are safe. Large amounts can cause gas.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "peanuts",
+    "aliases": [
+      "roasted peanuts",
+      "unsalted peanuts"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, unsalted peanuts are safe in moderation. High fat content means too many can cause digestive upset.",
+    "symptoms": [],
+    "action": "Offer in moderation, unsalted.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "cashews",
+    "aliases": [
+      "roasted cashews",
+      "unsalted cashews"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, unsalted cashews are safe in moderation. High fat content can cause digestive upset.",
+    "symptoms": [],
+    "action": "Offer in moderation, unsalted.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "plain popcorn",
+    "aliases": [
+      "air-popped popcorn"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, air-popped popcorn (without butter, salt, or toppings) is safe in moderation. Unpopped kernels are a choking hazard.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and air-popped.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "oatmeal",
+    "aliases": [
+      "cooked oats",
+      "porridge"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked oatmeal (without sugar or flavorings) is a good source of fiber and can help with digestive issues.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
     "id": 90,
-    "name": "cashews",
+    "name": "quinoa",
     "aliases": [
-      "cashews"
+      "cooked quinoa"
     ],
-    "safe": false,
-    "severity": "medium",
+    "safe": true,
+    "severity": "low",
     "category": "food",
-    "description": "Cashews can be harmful to dogs.",
-    "symptoms": [
-      "vomiting",
-      "diarrhea"
-    ],
-    "action": "",
+    "description": "Plain, cooked quinoa is a safe and nutritious grain for dogs in moderation.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and cooked.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/cashews (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
     ]
   },
   {
     "id": 91,
-    "name": "sunflower seeds",
+    "name": "turkey",
     "aliases": [
-      "sunflower seeds"
+      "cooked turkey",
+      "plain turkey"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Sunflower seeds is safe for dogs in moderation.",
+    "description": "Plain, boneless, skinless, cooked turkey is a good source of protein. Avoid fatty skin or seasoned meat.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 92,
-    "name": "pumpkin seeds",
+    "name": "pork",
     "aliases": [
-      "pumpkin seeds"
+      "cooked pork",
+      "plain pork"
     ],
     "safe": true,
     "severity": "low",
     "category": "food",
-    "description": "Pumpkin seeds is safe for dogs in moderation.",
+    "description": "Plain, cooked pork (without excessive fat or seasoning) is safe in moderation. Avoid raw or undercooked pork.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 93,
-    "name": "basil",
+    "name": "green peas",
     "aliases": [
-      "basil"
+      "fresh peas",
+      "frozen peas"
     ],
     "safe": true,
     "severity": "low",
-    "category": "plant",
-    "description": "Basil is safe for dogs in moderation.",
+    "category": "food",
+    "description": "Green peas (fresh or frozen, cooked) are a healthy source of vitamins and fiber.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 94,
-    "name": "mint",
+    "name": "canned tuna",
     "aliases": [
-      "mint"
+      "tuna in water"
     ],
     "safe": true,
     "severity": "low",
-    "category": "plant",
-    "description": "Mint is safe for dogs in moderation.",
+    "category": "food",
+    "description": "Plain, canned tuna in water (not oil) is safe in small amounts. High mercury content means it should be an occasional treat.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in very small amounts, in water.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 95,
-    "name": "parsley",
+    "name": "water chestnuts",
     "aliases": [
-      "parsley"
+      "fresh water chestnuts",
+      "canned water chestnuts"
     ],
     "safe": true,
     "severity": "low",
-    "category": "plant",
-    "description": "Parsley is safe for dogs in moderation.",
+    "category": "food",
+    "description": "Water chestnuts are safe for dogs and can be a crunchy treat. Offer in moderation.",
     "symptoms": [],
-    "action": "",
-    "citations": []
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 96,
-    "name": "cilantro",
+    "name": "peppers (spicy)",
     "aliases": [
-      "cilantro"
+      "chili peppers",
+      "jalapenos",
+      "habaneros"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Cilantro is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Spicy peppers contain capsaicin, which causes irritation and digestive upset.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "mouth irritation",
+      "excessive thirst"
+    ],
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 97,
-    "name": "dill",
+    "name": "raw potatoes",
     "aliases": [
-      "dill"
+      "uncooked potatoes",
+      "potato skin"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Dill is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Raw potatoes, especially green parts and sprouts, contain solanine, which is toxic. Cooked potatoes are safe.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "weakness"
+    ],
+    "action": "Avoid feeding raw potatoes.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 98,
-    "name": "rosemary",
+    "name": "cinnamon",
     "aliases": [
-      "rosemary"
+      "cinnamon powder",
+      "cinnamon sticks"
     ],
-    "safe": true,
+    "safe": false,
     "severity": "low",
-    "category": "plant",
-    "description": "Rosemary is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "category": "food",
+    "description": "Cinnamon is not highly toxic in small amounts, but large quantities can cause mouth irritation, digestive upset, or respiratory issues if inhaled.",
+    "symptoms": [
+      "mouth irritation",
+      "vomiting",
+      "diarrhea",
+      "coughing (if inhaled)"
+    ],
+    "action": "Avoid feeding large amounts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 99,
-    "name": "thyme",
+    "name": "nutella",
     "aliases": [
-      "thyme"
+      "chocolate hazelnut spread"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Thyme is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Nutella contains chocolate (cocoa), sugar, and fat, all of which can be harmful to dogs. While cocoa content is low, large amounts are risky.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "hyperactivity"
+    ],
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 100,
-    "name": "oregano",
+    "name": "garlic bread",
     "aliases": [
-      "oregano"
+      "garlic knots"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Oregano is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Garlic is toxic to dogs and can cause red blood cell damage. Even small amounts in garlic bread can be harmful.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "weakness",
+      "pale gums"
+    ],
+    "action": "Contact vet if ingested.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/onions-garlic (accessed July 2025)"
+    ]
   },
   {
     "id": 101,
-    "name": "sage",
+    "name": "grapes (dried)",
     "aliases": [
-      "sage"
+      "dried grapes",
+      "currants"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Sage is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Dried grapes (raisins, currants) are just as toxic as fresh grapes and can cause acute kidney failure.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "abdominal pain",
+      "dehydration"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/grapes (accessed July 2025)"
+    ]
   },
   {
     "id": 102,
-    "name": "bay leaf",
+    "name": "chives",
     "aliases": [
-      "bay leaf"
+      "onion chives"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Bay leaf is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Chives, like other members of the Allium family (onions, garlic), are toxic and can cause red blood cell damage.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "weakness",
+      "pale gums"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/onions-garlic (accessed July 2025)"
+    ]
   },
   {
     "id": 103,
-    "name": "lavender",
+    "name": "licorice",
     "aliases": [
-      "lavender"
+      "licorice candy",
+      "licorice root"
     ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Lavender is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Licorice can cause vomiting and diarrhea. In large amounts, it can affect blood pressure and electrolyte balance.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "increased thirst"
+    ],
+    "action": "Contact vet if large amount ingested.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
   },
   {
     "id": 104,
-    "name": "chamomile",
+    "name": "hops",
     "aliases": [
-      "chamomile"
-    ],
-    "safe": true,
-    "severity": "low",
-    "category": "plant",
-    "description": "Chamomile is safe for dogs in moderation.",
-    "symptoms": [],
-    "action": "",
-    "citations": []
-  },
-  {
-    "id": 105,
-    "name": "eucalyptus",
-    "aliases": [
-      "eucalyptus"
+      "beer hops",
+      "hop plant"
     ],
     "safe": false,
     "severity": "high",
     "category": "plant",
-    "description": "Eucalyptus can be harmful to dogs.",
+    "description": "Hops, used in brewing beer, can cause malignant hyperthermia (rapid, dangerous increase in body temperature) in dogs.",
+    "symptoms": [
+      "panting",
+      "agitation",
+      "vomiting",
+      "fever",
+      "seizures",
+      "death"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/hops (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "milk chocolate",
+    "aliases": [
+      "chocolate bar",
+      "chocolate chip"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "While less toxic than dark chocolate, milk chocolate still contains theobromine and caffeine, which are harmful to dogs.",
     "symptoms": [
       "vomiting",
       "diarrhea",
-      "lethargy"
+      "hyperactivity",
+      "tremors"
     ],
-    "action": "",
+    "action": "Contact vet, especially if large amount.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/eucalyptus (accessed July 2025)"
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/chocolate (accessed July 2025)"
     ]
   },
   {
     "id": 106,
-    "name": "aloe vera",
+    "name": "dark chocolate",
     "aliases": [
-      "aloe vera"
+      "baking chocolate",
+      "cocoa powder"
     ],
     "safe": false,
     "severity": "high",
-    "category": "plant",
-    "description": "Aloe vera can be harmful to dogs.",
+    "category": "food",
+    "description": "Dark chocolate contains high levels of theobromine and caffeine, making it very dangerous for dogs.",
     "symptoms": [
       "vomiting",
       "diarrhea",
+      "tremors",
+      "seizures",
+      "heart problems",
+      "death"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/chocolate (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "raw salmon",
+    "aliases": [
+      "uncooked salmon",
+      "pacific salmon"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Raw Pacific salmon can carry a parasite that causes 'Salmon Poisoning Disease,' which is fatal if untreated.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "fever",
+      "lethargy",
+      "swollen lymph nodes"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "raw eggs (whites)",
+    "aliases": [
+      "egg whites"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "Raw egg whites contain avidin, which can inhibit biotin absorption, leading to skin and coat problems over time.",
+    "symptoms": [
+      "skin issues",
+      "dull coat",
+      "hair loss"
+    ],
+    "action": "Avoid feeding raw egg whites regularly.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "cooked beef",
+    "aliases": [
+      "plain beef",
+      "lean beef"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, lean, cooked beef (without seasonings or excessive fat) is a good source of protein.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "cooked lamb",
+    "aliases": [
+      "plain lamb"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked lamb (without excessive fat or seasoning) is safe and often well-tolerated.",
+    "symptoms": [],
+    "action": "Offer in moderation, plain and cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "white bread",
+    "aliases": [
+      "sandwich bread"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain white bread in small amounts is generally safe, but offers little nutritional value. Avoid raw dough.",
+    "symptoms": [],
+    "action": "Offer in small amounts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "popcorn (buttered/salted)",
+    "aliases": [
+      "movie popcorn"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Buttered and salted popcorn can lead to digestive upset, dehydration, and potentially sodium ion poisoning.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "excessive thirst",
       "lethargy"
     ],
-    "action": "",
+    "action": "Avoid feeding.",
     "citations": [
-      "ASPCA Animal Poison Control Center: https://www.aspca.org/pet-care/animal-poison-control/aloe-vera (accessed July 2025)"
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "cooked shrimp",
+    "aliases": [
+      "plain shrimp"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked shrimp (shelled and deveined) is safe in moderation and a good source of protein. Avoid raw shrimp.",
+    "symptoms": [],
+    "action": "Offer in moderation, cooked and plain.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "cooked carrots",
+    "aliases": [
+      "steamed carrots"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked carrots are easily digestible and a healthy, low-calorie treat.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "cooked peas",
+    "aliases": [
+      "steamed peas"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked peas are a good source of vitamins, minerals, and fiber.",
+    "symptoms": [],
+    "action": "Offer in moderation.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "cooked broccoli florets",
+    "aliases": [
+      "steamed broccoli"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of cooked broccoli florets are safe and provide vitamins. Large amounts can cause gas.",
+    "symptoms": [],
+    "action": "Offer in very small amounts, cooked.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "raw sweet potato",
+    "aliases": [
+      "uncooked sweet potato"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Raw sweet potatoes can be difficult to digest and may cause intestinal upset or blockage.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain"
+    ],
+    "action": "Always cook sweet potatoes before feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "corn syrup",
+    "aliases": [
+      "high-fructose corn syrup",
+      "glucose syrup"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "While not directly toxic, corn syrup is pure sugar and can lead to obesity, dental problems, and diabetes with regular consumption.",
+    "symptoms": [
+      "weight gain",
+      "dental issues"
+    ],
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "cat food",
+    "aliases": [
+      "feline kibble",
+      "wet cat food"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "food",
+    "description": "Cat food is formulated for cats' nutritional needs (higher protein, different vitamin balance) and is not suitable as a regular diet for dogs, potentially leading to nutritional deficiencies or obesity over time.",
+    "symptoms": [
+      "digestive upset (short term)",
+      "nutritional imbalance (long term)"
+    ],
+    "action": "Avoid feeding regularly; occasional small amounts are generally not harmful.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "macaroni and cheese",
+    "aliases": [
+      "mac n cheese"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Macaroni and cheese is high in fat, dairy, and often salt, which can cause digestive upset and pancreatitis in dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain"
+    ],
+    "action": "Avoid feeding.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
     ]
   }
 ]
