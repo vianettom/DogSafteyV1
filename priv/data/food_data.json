@@ -2429,5 +2429,902 @@
     "citations": [
       "General veterinary advice (accessed July 2025)"
     ]
+  },
+  {
+    "id": 121,
+    "name": "persimmons",
+    "aliases": [
+      "persimmon fruit",
+      "persimmon seeds"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "food",
+    "description": "Fruit flesh may be tolerated in small amounts, but the seeds and skin can cause intestinal upset or blockage.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain"
+    ],
+    "action": "Avoid seeds and skin; contact vet if signs of blockage occur.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "pomegranate arils",
+    "aliases": [
+      "pomegranate seeds",
+      "pomegranate"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small amounts of arils are generally safe but can upset sensitive stomachs.",
+    "symptoms": [],
+    "action": "Offer only a few arils; avoid rind and large quantities.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "star fruit",
+    "aliases": [
+      "carambola"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "food",
+    "description": "Contains oxalates which can affect kidneys; not recommended for dogs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "tremors"
+    ],
+    "action": "Avoid feeding; contact vet if ingested.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "dragon fruit",
+    "aliases": [
+      "pitaya"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Mild, hydrating fruit; seeds are soft and typically pass without issue.",
+    "symptoms": [],
+    "action": "Offer in small amounts; remove thick peel.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "guava (ripe flesh)",
+    "aliases": [
+      "guava slices"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tropical fruit safe in moderation; firm seeds can be irritating.",
+    "symptoms": [],
+    "action": "Offer small pieces; avoid hard seeds and rind.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "lychee (without seed)",
+    "aliases": [
+      "lychee fruit"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Sweet fruit; the large seed is a choking hazard and should be removed.",
+    "symptoms": [],
+    "action": "Peel and fully remove seed; offer sparingly due to sugar.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "dates (without pits)",
+    "aliases": [
+      "pitted dates"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Energy-dense fruit; high sugar may cause GI upset if overfed.",
+    "symptoms": [],
+    "action": "Use rarely as a tiny treat; ensure pits are removed.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "figs (fresh)",
+    "aliases": [
+      "fresh figs"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Fiber-rich fruit; may cause loose stool in sensitive dogs.",
+    "symptoms": [],
+    "action": "Offer in small amounts; avoid leaves/plant which can irritate.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "cranberries",
+    "aliases": [
+      "fresh cranberries",
+      "unsweetened dried cranberries"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tart berries; avoid sweetened or trail mixes with raisins.",
+    "symptoms": [],
+    "action": "Offer sparingly; avoid products mixed with raisins or xylitol.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "coconut (flesh)",
+    "aliases": [
+      "fresh coconut",
+      "unsweetened coconut"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Fatty treat that can cause GI upset in excess; avoid sweetened coconut.",
+    "symptoms": [],
+    "action": "Offer a small amount only; avoid sweeteners and large flakes.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "coconut water (unsweetened)",
+    "aliases": [
+      "unsweetened coconut water"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "beverage",
+    "description": "Electrolyte-containing drink; small amounts are typically fine.",
+    "symptoms": [],
+    "action": "Offer a few sips only; avoid added sugar and flavors.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "bone broth (plain)",
+    "aliases": [
+      "plain broth",
+      "unsalted bone broth"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "beverage",
+    "description": "Hydrating, palatable liquid; must be onion/garlic-free and low sodium.",
+    "symptoms": [],
+    "action": "Use plain, unsalted, allium-free; cool and skim fat.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "nori (seaweed sheets)",
+    "aliases": [
+      "seaweed",
+      "nori sheets"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Unsalted, plain nori can be a low-calorie snack.",
+    "symptoms": [],
+    "action": "Offer tiny pieces; avoid seasoned or salted varieties.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "chickpeas (cooked)",
+    "aliases": [
+      "garbanzo beans",
+      "cooked chickpeas"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked, plain legumes offering fiber and protein.",
+    "symptoms": [],
+    "action": "Rinse and serve plain in small amounts; avoid hummus (seasonings).",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "lentils (cooked)",
+    "aliases": [
+      "cooked lentils"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked and plain, lentils are generally well tolerated.",
+    "symptoms": [],
+    "action": "Serve plain and soft; small portions only.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "black beans (cooked)",
+    "aliases": [
+      "cooked black beans"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked plain beans are safe; canned beans should be rinsed to reduce sodium.",
+    "symptoms": [],
+    "action": "Offer small amounts; avoid added salt, onion, or spices.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "barley (cooked)",
+    "aliases": [
+      "cooked barley"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked grain that’s gentle on some stomachs.",
+    "symptoms": [],
+    "action": "Serve plain and fully cooked in small portions.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "couscous (plain)",
+    "aliases": [
+      "plain couscous"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Small-grain pasta that’s safe when plain and fully cooked.",
+    "symptoms": [],
+    "action": "Offer a spoonful or two; no butter, salt, or spices.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "bulgur (cooked)",
+    "aliases": [
+      "cooked bulgur wheat"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Whole grain option; provide fiber when served plain.",
+    "symptoms": [],
+    "action": "Cook thoroughly and serve plain in small amounts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "polenta (plain)",
+    "aliases": [
+      "cooked cornmeal",
+      "plain polenta"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain, cooked cornmeal can be an occasional carb source.",
+    "symptoms": [],
+    "action": "Serve a small amount; avoid butter, cheese, or seasoning.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "chia seeds (soaked)",
+    "aliases": [
+      "soaked chia"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Soaked chia can add fiber and omega-3s; dry seeds can swell.",
+    "symptoms": [],
+    "action": "Pre-soak; offer a pinch mixed into food.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "ground flaxseed",
+    "aliases": [
+      "milled flax",
+      "flax meal"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Source of fiber and ALA omega-3s.",
+    "symptoms": [],
+    "action": "Offer a small sprinkle on meals; avoid whole seeds for best digestion.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "pumpkin seeds (plain, roasted)",
+    "aliases": [
+      "roasted pumpkin seeds",
+      "pepitas (plain)"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Plain roasted seeds (unsalted) may be offered sparingly.",
+    "symptoms": [],
+    "action": "Offer only a few; avoid salt, oil, or seasoning.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "basil",
+    "aliases": [
+      "fresh basil"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Culinary herb that’s safe in tiny amounts.",
+    "symptoms": [],
+    "action": "Use as a garnish-sized treat only; avoid oils/extracts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "parsley",
+    "aliases": [
+      "flat-leaf parsley",
+      "curly parsley"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Herb safe in very small amounts; large quantities are not advised.",
+    "symptoms": [],
+    "action": "Use a pinch; avoid essential oils and large doses.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "cilantro",
+    "aliases": [
+      "coriander leaves"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Leafy herb that can add aroma without salt or fat.",
+    "symptoms": [],
+    "action": "Offer a few chopped leaves as garnish only.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "dill",
+    "aliases": [
+      "dill weed"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Aromatic herb; safe in tiny amounts.",
+    "symptoms": [],
+    "action": "Use sparingly; avoid pickled products (salt).",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "rosemary",
+    "aliases": [
+      "fresh rosemary"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Fragrant herb; tiny amounts are generally fine.",
+    "symptoms": [],
+    "action": "Offer a pinch; avoid concentrated extracts.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "mint (culinary)",
+    "aliases": [
+      "peppermint leaves",
+      "spearmint"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Culinary mints are typically safe in tiny amounts; note that pennyroyal mint is toxic.",
+    "symptoms": [],
+    "action": "Offer a leaf or two; avoid essential oils and pennyroyal species.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "oregano (fresh)",
+    "aliases": [
+      "fresh oregano"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Fresh leaves in tiny amounts are usually tolerated; essential oil is not.",
+    "symptoms": [],
+    "action": "Use a pinch; do not use oregano oil on or in dogs.",
+    "citations": [
+      "General veterinary advice (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "philodendron",
+    "aliases": [
+      "tree philodendron",
+      "heartleaf philodendron"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Contains insoluble calcium oxalates that irritate the mouth and GI tract.",
+    "symptoms": [
+      "drooling",
+      "pawing at mouth",
+      "vomiting"
+    ],
+    "action": "Rinse mouth; contact vet if symptoms persist or worsen.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "dieffenbachia (dumb cane)",
+    "aliases": [
+      "dumbcane"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Chewing releases crystals that cause oral pain and swelling.",
+    "symptoms": [
+      "drooling",
+      "oral swelling",
+      "vomiting"
+    ],
+    "action": "Rinse mouth; seek vet care for significant swelling or distress.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "pothos (devil's ivy)",
+    "aliases": [
+      "epipremnum aureum",
+      "golden pothos"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Insoluble oxalates irritate the mouth and GI tract.",
+    "symptoms": [
+      "drooling",
+      "vomiting",
+      "decreased appetite"
+    ],
+    "action": "Remove access; contact vet if symptoms are significant.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "peace lily (spathiphyllum)",
+    "aliases": [
+      "spathiphyllum",
+      "closet plant"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Causes oral irritation and GI upset if chewed.",
+    "symptoms": [
+      "drooling",
+      "vomiting",
+      "mouth discomfort"
+    ],
+    "action": "Rinse mouth; monitor; contact vet if symptoms persist.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "snake plant",
+    "aliases": [
+      "sansevieria",
+      "dracaena trifasciata"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "plant",
+    "description": "Contains saponins which may cause mild GI upset.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea"
+    ],
+    "action": "Monitor; contact vet if symptoms are severe or prolonged.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "ZZ plant",
+    "aliases": [
+      "zamioculcas zamiifolia"
+    ],
+    "safe": false,
+    "severity": "medium",
+    "category": "plant",
+    "description": "Can cause GI upset and oral irritation when chewed.",
+    "symptoms": [
+      "drooling",
+      "vomiting",
+      "diarrhea"
+    ],
+    "action": "Remove access; contact vet if signs are notable.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "foxglove",
+    "aliases": [
+      "digitalis",
+      "digitalis purpurea"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Contains cardiac glycosides that can cause life-threatening arrhythmias.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abnormal heart rhythm",
+      "weakness",
+      "collapse"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "castor bean",
+    "aliases": [
+      "ricinus communis",
+      "castor plant seeds"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Seeds contain ricin, a highly toxic protein causing severe GI and systemic signs.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea (may be bloody)",
+      "abdominal pain",
+      "shock"
+    ],
+    "action": "Seek emergency veterinary care immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "autumn crocus",
+    "aliases": [
+      "colchicum autumnale",
+      "meadow saffron"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Contains colchicine which can cause multi-organ damage.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "bone marrow suppression"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "yew",
+    "aliases": [
+      "taxus species",
+      "yew berries",
+      "yew needles"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Taxine alkaloids can cause cardiac failure; all parts are dangerous.",
+    "symptoms": [
+      "tremors",
+      "difficulty breathing",
+      "abnormal heart rhythm",
+      "collapse",
+      "death"
+    ],
+    "action": "Contact vet immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed July 2025)"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "jackfruit (ripe flesh)",
+    "aliases": [
+      "ripe jackfruit",
+      "jackfruit bulbs"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Sweet tropical fruit; offer only ripe flesh without seeds or rind.",
+    "symptoms": [],
+    "action": "Remove seeds and rind; feed small amounts due to sugar and fiber.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "tamarind (pulp only)",
+    "aliases": [
+      "tamarind pulp"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Tangy pulp can be offered in tiny tastes; seeds and pods are not recommended.",
+    "symptoms": [],
+    "action": "Avoid seeds/shell; offer a very small taste only.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "passion fruit (pulp only)",
+    "aliases": [
+      "passionfruit pulp",
+      "maracuya"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Aromatic fruit; feed only the pulp and avoid rind and many hard seeds.",
+    "symptoms": [],
+    "action": "Spoon a tiny amount of pulp; avoid rind and excessive seeds.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "açai (unsweetened purée)",
+    "aliases": [
+      "acai puree (unsweetened)"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Unsweetened purée in tiny amounts is generally fine; avoid bowls sweetened with xylitol or chocolate toppings.",
+    "symptoms": [],
+    "action": "Offer a spoon-tip of plain, unsweetened purée only.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "rutabaga (cooked)",
+    "aliases": [
+      "cooked swede"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Mild root vegetable when cooked plain.",
+    "symptoms": [],
+    "action": "Serve plain and soft in small cubes; avoid butter/salt.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "turnip (cooked)",
+    "aliases": [
+      "cooked turnip"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked turnip can be offered in small amounts as a carb/fiber source.",
+    "symptoms": [],
+    "action": "Cook until soft; offer a few small pieces plain.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "edamame (plain, shelled)",
+    "aliases": [
+      "shelled edamame",
+      "soybeans (cooked)"
+    ],
+    "safe": true,
+    "severity": "low",
+    "category": "food",
+    "description": "Cooked, plain soybeans are generally safe in small amounts; avoid pods due to choking risk.",
+    "symptoms": [],
+    "action": "Serve a few shelled beans only; no salt or seasoning.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "bay leaves",
+    "aliases": [
+      "laurus nobilis leaves"
+    ],
+    "safe": false,
+    "severity": "low",
+    "category": "plant",
+    "description": "Tough, aromatic leaves can cause GI irritation and potential obstruction if swallowed.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abdominal discomfort"
+    ],
+    "action": "Do not feed; remove leaves from broths/stews before offering to dogs.",
+    "citations": [
+      "General veterinary advice (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "oleander (variant)",
+    "aliases": [
+      "nerium oleander",
+      "oleander"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Contains cardiac glycosides; ingestion can be life-threatening.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "abnormal heart rhythm",
+      "weakness",
+      "collapse"
+    ],
+    "action": "Seek emergency veterinary care immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed August 2025)"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "sago palm (variant)",
+    "aliases": [
+      "cycas revoluta",
+      "king sago",
+      "sago palm"
+    ],
+    "safe": false,
+    "severity": "high",
+    "category": "plant",
+    "description": "Highly toxic (cycasin); causes severe liver injury and can be fatal.",
+    "symptoms": [
+      "vomiting",
+      "diarrhea",
+      "lethargy",
+      "jaundice",
+      "seizures"
+    ],
+    "action": "Seek emergency veterinary care immediately.",
+    "citations": [
+      "ASPCA Animal Poison Control Center — Plants Database (accessed August 2025)"
+    ]
   }
 ]
