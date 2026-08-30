@@ -40,9 +40,7 @@ defmodule DogFoodSafetyWeb.Telemetry do
     ]
   end
 
-def periodic_measurements, do: []
-
-
+  def periodic_measurements, do: []
 
   def dispatch_metrics do
     # Custom metrics can be dispatched here

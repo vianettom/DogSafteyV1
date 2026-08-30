@@ -57,9 +57,18 @@ defmodule DogFoodSafety.FoodDatabase do
     end)
   end
 
+  @doc """
+  List every item in a category, with no text query.
+
+  Prefer this over `search("", category)`, which only works because
+  `String.contains?/2` returns true for an empty needle.
+  """
+  @spec list_by_category(String.t()) :: [t()]
+  def list_by_category(category), do: all() |> filter_by_category(category)
+
   @doc "Get a single item by its ID"
   @spec get_by_id(integer()) :: t() | nil
-  def get_by_id(id), do: Enum.find(all(), & &1.id == id)
+  def get_by_id(id), do: Enum.find(all(), &(&1.id == id))
 
   @doc "Count how many items are marked safe"
   @spec count_safe() :: integer()
@@ -67,7 +76,7 @@ defmodule DogFoodSafety.FoodDatabase do
 
   @doc "Count how many items are marked unsafe"
   @spec count_toxic() :: integer()
-  def count_toxic, do: all() |> Enum.count(& not &1.safe)
+  def count_toxic, do: all() |> Enum.count(&(not &1.safe))
 
   @doc "Total number of items in the database"
   @spec count_total() :: integer()
@@ -75,7 +84,8 @@ defmodule DogFoodSafety.FoodDatabase do
 
   # Private helper for filtering by category
   defp filter_by_category(items, "all"), do: items
+
   defp filter_by_category(items, category) do
-    Enum.filter(items, & &1.category == category)
+    Enum.filter(items, &(&1.category == category))
   end
 end

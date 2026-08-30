@@ -1,8 +1,5 @@
 import Config
 
-config :dog_food_safety,
-  ecto_repos: [DogFoodSafety.Repo]
-
 config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4000],
   check_origin: false,
@@ -14,7 +11,6 @@ config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
   ]
 
-
 config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
   live_reload: [
     patterns: [
@@ -23,15 +19,6 @@ config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
       ~r"lib/dog_food_safety_web/(controllers|live|components)/.*(ex|heex)$"
     ]
   ]
-
-    # Configure your database
-config :dog_food_safety, DogFoodSafety.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "dog_food_safety_dev",
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
 
 config :dog_food_safety, dev_routes: true
 

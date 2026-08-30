@@ -43,7 +43,7 @@
     <!-- Search Section -->
     <div class="card bg-base-100 shadow-xl mb-8">
       <div class="card-body">
-        <.form for={%{}} phx-submit="search" phx-change="search" class="w-full">
+        <.form for={%{}} id="search-form" phx-submit="search" phx-change="search" class="w-full">
           <div class="form-control w-full">
             <label for="search-query" class="label text-center mb-3">
               <span class="label-text">Search for food or plant</span>
@@ -65,6 +65,23 @@
               />
             </div>
           </div>
+
+          <div class="form-control w-full mt-4">
+            <label for="search-category" class="label">
+              <span class="label-text">Filter by category</span>
+            </label>
+            <select
+              id="search-category"
+              name="search[category]"
+              class="select select-bordered w-full"
+            >
+              <%= for {value, label} <- @categories do %>
+                <option value={value} selected={value == @selected_category}>
+                  <%= label %>
+                </option>
+              <% end %>
+            </select>
+          </div>
         </.form>
       </div>
     </div>
@@ -81,11 +98,11 @@
           <div class="card bg-base-100 shadow-xl">
             <div class="card-body">
               <div class="flex items-center gap-4 mb-4">
-                <.icon name={"hero-#{get_safety_icon(item.safe, item.severity)}"} class={"w-6 h-6 #{get_icon_color(item.safe, item.severity)}"} />
+                <.icon name={get_safety_icon(item.safe, item.severity)} class={"w-6 h-6 #{get_icon_color(item.safe, item.severity)}"} />
                 <div class="flex-1">
                   <h4 class="card-title capitalize"><%= item.name %></h4>
                   <div class="badge badge-outline">
-                    <%= if item.category == "food", do: "🍽️ Food", else: "🌱 Plant" %>
+                    <%= category_label(item.category) %>
                   </div>
                 </div>
               </div>
@@ -165,10 +182,10 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div class="card bg-success text-success-content shadow-xl">
           <div class="card-body">
-            <h3 class="card-title">✅ Safe Foods</h3>
+            <h3 class="card-title">✅ Safe Items</h3>
             <p>Common safe foods include carrots, apples (without seeds), blueberries, cooked chicken, rice, and sweet potatoes.</p>
             <div class="card-actions justify-end">
-              <button phx-click="browse_safe_foods" class="btn btn-success">Browse Safe Foods</button>
+              <button phx-click="browse_safe_items" class="btn btn-success">Browse Safe Items</button>
             </div>
           </div>
         </div>

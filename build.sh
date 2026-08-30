@@ -1,11 +1,21 @@
 #!/usr/bin/env bash
 set -o errexit
+set -o nounset
+set -o pipefail
+
+export MIX_ENV=prod
+
+mix local.hex --force
+mix local.rebar --force
 
 mix deps.get --only prod
-MIX_ENV=prod mix compile
+mix compile
 
-MIX_ENV=prod mix assets.build
-MIX_ENV=prod mix assets.deploy
+# Asset toolchain: npm packages (daisyUI, topbar) must be installed before
+# tailwind/esbuild run, otherwise the CSS/JS build resolves nothing.
+npm ci --prefix assets
 
-MIX_ENV=prod mix phx.gen.release
-MIX_ENV=prod mix release --overwrite
+mix assets.setup
+mix assets.deploy
+
+mix release --overwrite

@@ -29,7 +29,8 @@ defmodule DogFoodSafetyWeb do
         layouts: [html: DogFoodSafetyWeb.Layouts]
 
       import Plug.Conn
-      import DogFoodSafetyWeb.Gettext
+
+      use Gettext, backend: DogFoodSafetyWeb.Gettext
 
       unquote(verified_routes())
     end
@@ -65,11 +66,15 @@ defmodule DogFoodSafetyWeb do
 
   defp html_helpers do
     quote do
-      use Phoenix.HTML
-
-      import Phoenix.LiveView.Helpers
+      # HTML escaping functionality
+      import Phoenix.HTML
+      # Core UI components
       import DogFoodSafetyWeb.CoreComponents
-      import DogFoodSafetyWeb.Gettext
+
+      use Gettext, backend: DogFoodSafetyWeb.Gettext
+
+      # Shortcut for generating JS commands
+      alias Phoenix.LiveView.JS
 
       unquote(verified_routes())
     end

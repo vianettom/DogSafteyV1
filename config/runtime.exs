@@ -1,46 +1,31 @@
 import Config
 
+# config/runtime.exs is executed for all environments, including releases.
+# It is the place to read environment variables at boot time.
+
+if System.get_env("PHX_SERVER") do
+  config :dog_food_safety, DogFoodSafetyWeb.Endpoint, server: true
+end
+
 if config_env() == :prod do
-  # fetch the PORT env var (Render sets this automatically, default 10000)
-  port =
-    System.get_env("PORT")
-    |> case do
-      nil -> 4000      # fallback if not set
-      val -> String.to_integer(val)
-    end
+  secret_key_base =
+    System.get_env("SECRET_KEY_BASE") ||
+      raise """
+      environment variable SECRET_KEY_BASE is missing.
+      You can generate one by calling: mix phx.gen.secret
+      """
+
+  host = System.get_env("PHX_HOST") || "dogsafteyv1.onrender.com"
+  port = String.to_integer(System.get_env("PORT") || "4000")
 
   config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
-    # bind to all interfaces
+    url: [host: host, port: 443, scheme: "https"],
     http: [
+      # Bind to all interfaces so the platform's router can reach the app.
       ip: {0, 0, 0, 0},
       port: port
     ],
-    # enable the server in releases/runtime
-    server: true,
-    # standard prod settings
-    secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
-end
-
-import Config
-
-if config_env() == :prod do
-  host = "dogsafteyv1.onrender.com"
-
-  config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
-    # Tell Phoenix how to build URLs (for links, signed tokens, etc.)
-    url: [
-      host: host,
-      port: 443,
-      scheme: "https"
-    ],
-    # Use the PORT Render gives you at runtime
-    http: [
-      port: String.to_integer(System.get_env("PORT") || "4000")
-    ],
-    # Explicitly allow LiveView/WebSocket connections from your domain
-check_origin: [
-  "https://dogsafteyv1.onrender.com",
-  "//dogsafteyv1.onrender.com"
-],
-    secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
+    check_origin: ["https://#{host}", "//#{host}"],
+    secret_key_base: secret_key_base,
+    server: true
 end

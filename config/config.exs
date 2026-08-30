@@ -1,18 +1,13 @@
 import Config
 
-# Tell Ecto which repos to start
-config :dog_food_safety,
-  generators: [timestamp_type: :utc_datetime],
-  ecto_repos: [DogFoodSafety.Repo]
-
 # Phoenix Endpoint configuration
 config :dog_food_safety, DogFoodSafetyWeb.Endpoint,
   url: [host: "localhost"],
+  adapter: Bandit.PhoenixAdapter,
   render_errors: [
-    view: DogFoodSafetyWeb.ErrorHTML,
-    accepts: ~w(html json),
+    formats: [html: DogFoodSafetyWeb.ErrorHTML],
     layout: false
-  ],                            # ← comma here!
+  ],
   pubsub_server: DogFoodSafety.PubSub,
   live_view: [signing_salt: "secret_salt"]
 
@@ -36,12 +31,20 @@ config :esbuild,
     args:
       ~w(js/app.js --bundle --target=es2017 --outdir=../priv/static/assets --external:/fonts/* --external:/images/*),
     cd: Path.expand("../assets", __DIR__),
-    env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
+    env: %{
+      "NODE_PATH" =>
+        Enum.join(
+          [Path.expand("../deps", __DIR__), Path.expand("../assets/node_modules", __DIR__)],
+          ":"
+        )
+    }
   ]
 
 # tailwind (CSS bundling)
+# Pinned to the 3.x line; daisyUI 4.x is the last release series that targets
+# Tailwind 3. Moving to Tailwind 4 + daisyUI 5 is a separate, deliberate step.
 config :tailwind,
-  version: "3.3.0",
+  version: "3.4.19",
   default: [
     args: ~w(
       --config=tailwind.config.js
